@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Contact = () => {
   return (
-    <div className='w-full lg:h-screen'>
+    <div id='contact' className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
             <h2 className='py-4'>Let's get in touch!</h2>
@@ -23,7 +23,9 @@ const Contact = () => {
                             <p>Aspiring Software Engineer</p>
                             <p className='py-4'>I am a College Student</p>
                         </div>
-                        <p className='uppercase pt-8'>Connect with me.</p>
+                        <div className='col-span-5 flex items-center justify-center py-4'>
+                            <p className='uppercase pt-8'>Connect with me.</p>
+                        </div>
                         <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                 <FaLinkedinIn/>
@@ -70,13 +72,13 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <div className='flex justify-center py-12'>
-                    <Link href='/'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
-                        </div>
-                    </Link>
-                </div>
+            </div>
+            <div className='flex justify-center items-center py-12'>
+                <Link href='/'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
+                    </div>
+                </Link>
             </div>
         </div>
 
