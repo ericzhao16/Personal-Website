@@ -65,7 +65,7 @@ const NavBar = () => {
                                      : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src='/../public/assets/headshot.png' width='87' height='35' alt='/' />
+                            <Image className='rounded-full shadow-xl' src='/../assets/headshot.png' width='50' height='35' alt='/' />
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose/>
                             </div>
@@ -93,19 +93,16 @@ const NavBar = () => {
                             </Link>
                         </ul>
                         <div className='pt-40 '>
-                            <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect!</p>
+                            <p className='uppercase tracking-widest text-[#89CFF0]'>Let's Connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn />
+                                    <Link href='https://linkedin.com/in/ericzhao2022' target='_blank'><FaLinkedinIn/></Link>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaGithub />
+                                    <Link href='https://github.com/ericzhao16' target='_blank'><FaGithub/></Link>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsPersonLinesFill />
+                                    <Link href='mailto:zhaoeric@umich.edu' target='_blank' rel='noopener noreferrer'><AiOutlineMail /></Link>
                                 </div>
                             </div>
                         </div>
