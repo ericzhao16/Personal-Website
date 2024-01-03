@@ -2,16 +2,23 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p2 flex items-center py-16'>
+    <div id='about' className='ml-3 w-full md:h-screen p2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
-                <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'>Bio</p>
-                <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects!</p>
+                <p className='uppercase text-xl tracking-widest text-[#89CFF0]'>About</p>
+                <h2 className='py-4'>About Me:</h2>
+                <p className='py-2 text-gray-600'>My name is Eric Zhao, and I'm currently a student at the University of Michigan studying computer science. Through computer science, I've been able to hone, leverage, and apply my methodical approach to problem solving to build efficient programs. I'm most interested in database infrastructure, low-level programming, full-stack development, and Large Language Models (LLMs).</p>
+                <p className='py-2 text-gray-600'>At school, I work as a teaching assistant for Discrete Math. On campus, I'm also the Vice President of Recruitment for Atlas Digital Consulting Group, a technology consulting club, and a member of the Phi Gamma Nu Professional Business Fraternity.</p>
+                <p className='py-2 text-gray-600'>Outside of school, I enjoy playing tennis, poker, eating, visitng new places, and spending quality time with friends and family. I'm always down to try something new!</p>
+                <p className='py-2 text-gray-600'>Thank you for visiting my website, and it's been a pleasure to tell you a little bit about myself! :)</p>
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src='' alt='cool photo ig' />
+            <div>
+              <div className='w-[70%] h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 transform rotate-[-5deg]'>
+                <img className='rounded-xl' src='/assets/food.jpg' alt='cool photo'/>
+              </div>
+              <div className='mt-5 w-[65%] h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 transform rotate-[5deg]'>
+                <img className='rounded-xl' src='/assets/tennis.jpg' alt='cool photo'/>
+              </div>
             </div>
         </div>
     </div>
