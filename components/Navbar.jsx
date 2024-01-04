@@ -72,7 +72,7 @@ const NavBar = () => {
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4 '>
-                        <p className='w-[85%] md:w-[90%] py-4 text-center'>Let's connect!</p>
+                        <p className='w-[85%] md:w-[90%] py-4 text-center'>Let&apos;s connect!</p>
                     </div>
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
@@ -93,7 +93,7 @@ const NavBar = () => {
                             </Link>
                         </ul>
                         <div className='pt-40 '>
-                            <p className='uppercase tracking-widest text-[#89CFF0]'>Let's Connect!</p>
+                            <p className='uppercase tracking-widest text-[#89CFF0]'>Let&apos;s Connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <Link href='https://linkedin.com/in/ericzhao2022' target='_blank'><FaLinkedinIn/></Link>
