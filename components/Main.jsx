@@ -23,12 +23,9 @@ const Main = () => {
                         <Link href='mailto:zhaoeric@umich.edu' target='_blank' rel='noopener noreferrer'><AiOutlineMail /></Link>
                     </div>
                 </div>
-                <div className='mt-5 w-auto rounded-full shadow-lg shadow-gray-400 p-0 max-w-[20%] cursor-pointer hover:scale-105 ease-in duration-300 items-center mx-auto flex'>
-                    <Link className='py-4 text-gray-600 max-w-[70%] m-auto' href='https://drive.google.com/drive/folders/1jWBf5vUHnzfSPnwvJ-XPMqku6QqmmF7d?usp=sharing' target='_blank'>
-                        <p className='text-center'>Resume</p>
-                    </Link>
+                <div className='hidden md:flex items-center mt-5 rounded-full shadow-lg shadow-gray-400 p-0 max-w-[15%] cursor-pointer hover:scale-105 ease-in duration-300 mx-auto'>
+                    <Link className='py-4 text-gray-600 max-w-[70%] m-auto' href='https://drive.google.com/drive/folders/1jWBf5vUHnzfSPnwvJ-XPMqku6QqmmF7d?usp=sharing' target='_blank'><p className='text-center'>Resume</p></Link>
                 </div>
-
             </div>
         </div>
     </div>
