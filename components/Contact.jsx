@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-2'>
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#89CFF0]'>Contact</p>
-                <h2 className='py-4'>Let's connect!</h2>
+                <h2 className='py-4'>Let&apos;s connect!</h2>
                 <p className='py-2 text-gray-600'>Please feel free to reach out for anything.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>

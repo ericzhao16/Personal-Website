@@ -9,9 +9,9 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <h1 className='py-4 text-gray-700'>Hey! I'm <span className='text-[#89CFF0]'>Eric,</span></h1>
+                <h1 className='py-4 text-gray-700'>Hey! I&apos;m <span className='text-[#89CFF0]'>Eric,</span></h1>
                 <h1 className='py-4 text-gray-700'>An Aspiring Software Engineer.</h1>
-                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I'm pursuing a Computer Science B.S.E. at the University of Michigan.</p>
+                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I&apos;m pursuing a Computer Science B.S.E. at the University of Michigan.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <Link href='https://linkedin.com/in/ericzhao2022' target='_blank'><FaLinkedinIn/></Link>
