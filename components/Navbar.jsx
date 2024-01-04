@@ -65,7 +65,7 @@ const NavBar = () => {
                                      : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image className='rounded-full shadow-xl' src='/../assets/headshot.png' width='50' height='35' alt='/' />
+                            <Image className='rounded-full shadow-xl' src='/assets/headshot.png' width='50' height='35' alt='/' />
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose/>
                             </div>
@@ -92,7 +92,7 @@ const NavBar = () => {
                                 <li onClick={() => setNav(true)} className='py-3 text-sm'>Contact</li>
                             </Link>
                         </ul>
-                        <div className='pt-40 '>
+                        <div className='pt-40 mb-3'>
                             <p className='uppercase tracking-widest text-[#89CFF0]'>Let&apos;s Connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
