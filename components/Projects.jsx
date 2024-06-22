@@ -16,7 +16,7 @@ const Projects = () => {
             <h2 className='py-4'>What I&apos;ve Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
-                <ProjectItem title='ShapeLog' backgroundImg={ShapeLog} deets='Collaborative full-stack web app built in React and Python. Used Postman to test API calls and route them to frontend interface.' projectUrl='https://github.com/chandravishal/shapelog' buttonDescription='Github'/>
+                {/* <ProjectItem title='ShapeLog' backgroundImg={ShapeLog} deets='Collaborative full-stack web app built in React and Python. Used Postman to test API calls and route them to frontend interface.' projectUrl='https://github.com/chandravishal/shapelog' buttonDescription='Github'/> */}
                 <ProjectItem title='Personal Site' backgroundImg={personalSite} deets='Portfolio website built from React, Next.js, and TailwindCSS' projectUrl='https://github.com/ericzhao16/Personal-Website' buttonDescription='Github'/>
                 <ProjectItem title='Instagram Clone' backgroundImg={instagram} deets='Instagram-style client-side social media app built in React with a backend in Flask. Utilizes a SQLite database and AJAX for custom REST API.' projectUrl='mailto:zhaoeric@umich.edu' buttonDescription='Contact Me'/>
                 <ProjectItem title='Google Hadoop MapReduce Clone' backgroundImg={mapReduce} deets='Multi-threaded program that simulates a distributed map and reduce program. Coded in Python. Used TCP/IP ports for communication between workers and managers and fault-tolerance, and UDP for heartbeat messages.' projectUrl='mailto:zhaoeric@umich.edu' buttonDescription='Contact Me'/>
